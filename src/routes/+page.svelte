@@ -2,26 +2,110 @@
   import logo from "$lib/images/BaldG_200x200.png";
 </script>
 
-<div class="container mx-auto p-8 space-y-8">
-  <img src={logo} width={64} alt="logo" />
-  <h1 class="h1">BaldG</h1>
-  <h2 class="h2">The superlicious bombastic</h2>
-  <p>
-    The BaldG token was introduced to the BSC blockchain on the 27th of January
-    2024. Its aim is to revitalise forgotten meme tokens through the launch of
-    user controlled airdrops via a decentralised app.
-  </p>
-  <p>The launch of the App has been delayed to Q4 2024.</p>
-  <section>
-    <a
-      class="btn variant-filled-primary"
-      href="https://pancakeswap.finance/swap?outputCurrency=0x9C36fF28616285502b11E82aA582eBe029661Ffc"
-      >Buy BALDG</a
-    >
-  </section>
-  <section class="mx-auto space-y-1">
-    <h1 class="h1">Social</h1>
-    <div class="flex space-x-2">
+<div class="flex flex-col min-h-screen">
+  <div class="container mx-auto p-8 space-y-8">
+    <img src={logo} width={64} alt="logo" />
+    <h1 class="h1 text-primary-500">BaldG</h1>
+    <h2 class="h2">The superlicious bombastic</h2>
+    <hr class="!border-dashed" />
+    <div class="grid grid-cols-3 gap-8 place-items-center">
+      <div class="text-secondary-600">
+        The BaldG token was introduced to the BSC blockchain on the 27th of
+        January 2024. Its aim is to revitalise forgotten meme tokens through the
+        launch of user controlled airdrops via a decentralised app. Is is also
+        going to be used be other aplications.
+      </div>
+      <div class="text-tertiary-600">
+        The launch of the App has been delayed to a later time.
+      </div>
+      <div>
+        <a
+          class="btn variant-filled-primary"
+          href="https://pancakeswap.finance/swap?outputCurrency=0x9C36fF28616285502b11E82aA582eBe029661Ffc"
+          >Buy BALDG</a
+        >
+      </div>
+      <div class="variant-ghost-surface p-4 rounded-lg">
+        <h2 class="h2">Ecosystem of dapps</h2>
+        <div>
+          <span
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              {...$$props}
+            >
+              <path
+                fill="currentColor"
+                d="M6 2h12v6l-4 4l4 4v6H6v-6l4-4l-4-4zm10 14.5l-4-4l-4 4V20h8zm-4-5l4-4V4H8v3.5zM10 6h4v.75l-2 2l-2-2z"
+              />
+            </svg></span
+          ><span>Coming soon</span>
+        </div>
+      </div>
+      <div class="col-span-2 variant-ghost-surface p-4 rounded-lg">
+        <h2 class="h2">Tentative roadmap</h2>
+        <ul class="list">
+          <li>
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                {...$$props}
+              >
+                <path
+                  fill="currentColor"
+                  d="M3 22V3h18v19l-3-2l-3 2l-3-2l-3 2l-3-2zM17 9V7h-2v2zm-4 0V7H7v2zm0 2H7v2h6zm2 2h2v-2h-2z"
+                />
+              </svg></span
+            >
+            <span>Airdrop dapp on BSC</span>
+          </li>
+          <li>
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                {...$$props}
+              >
+                <path
+                  fill="currentColor"
+                  d="M3 22V3h18v19l-3-2l-3 2l-3-2l-3 2l-3-2zM17 9V7h-2v2zm-4 0V7H7v2zm0 2H7v2h6zm2 2h2v-2h-2z"
+                />
+              </svg></span
+            >
+            <span>One-way bridge to Base blockchain</span>
+          </li>
+          <li>
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                {...$$props}
+              >
+                <path
+                  fill="currentColor"
+                  d="M3 22V3h18v19l-3-2l-3 2l-3-2l-3 2l-3-2zM17 9V7h-2v2zm-4 0V7H7v2zm0 2H7v2h6zm2 2h2v-2h-2z"
+                />
+              </svg></span
+            >
+            <span>Airdrop dapp on Base</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-auto mx-auto p-8">
+    <h2 class="h2">Social</h2>
+    <div class="flex flex-auto space-x-2">
       <a href="https://x.com/BaldGtoken">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -159,5 +243,5 @@
         </svg>
       </a>
     </div>
-  </section>
+  </div>
 </div>
