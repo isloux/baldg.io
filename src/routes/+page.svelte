@@ -12,8 +12,7 @@
       <div class="text-secondary-600">
         The BaldG token was introduced to the BSC blockchain on the 27th of
         January 2024. Its aim is to revitalise forgotten meme tokens through the
-        launch of user controlled airdrops via a decentralised app. Is is also
-        going to be used be other aplications.
+        launch of user controlled airdrops via a decentralised app.
       </div>
       <div class="text-tertiary-600">
         The launch of the App has been delayed to a later time.
